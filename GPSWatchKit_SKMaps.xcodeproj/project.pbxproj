@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C577D3B61AA58A9D00B0C7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3B51AA58A9D00B0C7F9 /* AppDelegate.swift */; };
+		C577D3B81AA58A9D00B0C7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3B71AA58A9D00B0C7F9 /* ViewController.swift */; };
+		C577D3BB1AA58A9D00B0C7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C577D3B91AA58A9D00B0C7F9 /* Main.storyboard */; };
+		C577D3BD1AA58A9D00B0C7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C577D3BC1AA58A9D00B0C7F9 /* Images.xcassets */; };
+		C577D3C01AA58A9E00B0C7F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C577D3BE1AA58A9E00B0C7F9 /* LaunchScreen.xib */; };
+		C577D3CC1AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3CB1AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C577D3C61AA58A9E00B0C7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C577D3A81AA58A9D00B0C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C577D3AF1AA58A9D00B0C7F9;
+			remoteInfo = GPSWatchKit_SKMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C577D3B01AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSWatchKit_SKMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C577D3B41AA58A9D00B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C577D3B51AA58A9D00B0C7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C577D3B71AA58A9D00B0C7F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C577D3BA1AA58A9D00B0C7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C577D3BC1AA58A9D00B0C7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C577D3BF1AA58A9E00B0C7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C577D3C51AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSWatchKit_SKMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C577D3CA1AA58A9E00B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C577D3CB1AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSWatchKit_SKMapsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C577D3AD1AA58A9D00B0C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C577D3C21AA58A9E00B0C7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C577D3A71AA58A9D00B0C7F9 = {
+			isa = PBXGroup;
+			children = (
+				C577D3B21AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps */,
+				C577D3C81AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests */,
+				C577D3B11AA58A9D00B0C7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C577D3B11AA58A9D00B0C7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C577D3B01AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps.app */,
+				C577D3C51AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C577D3B21AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps */ = {
+			isa = PBXGroup;
+			children = (
+				C577D3B51AA58A9D00B0C7F9 /* AppDelegate.swift */,
+				C577D3B71AA58A9D00B0C7F9 /* ViewController.swift */,
+				C577D3B91AA58A9D00B0C7F9 /* Main.storyboard */,
+				C577D3BC1AA58A9D00B0C7F9 /* Images.xcassets */,
+				C577D3BE1AA58A9E00B0C7F9 /* LaunchScreen.xib */,
+				C577D3B31AA58A9D00B0C7F9 /* Supporting Files */,
+			);
+			path = GPSWatchKit_SKMaps;
+			sourceTree = "<group>";
+		};
+		C577D3B31AA58A9D00B0C7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C577D3B41AA58A9D00B0C7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C577D3C81AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C577D3CB1AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.swift */,
+				C577D3C91AA58A9E00B0C7F9 /* Supporting Files */,
+			);
+			path = GPSWatchKit_SKMapsTests;
+			sourceTree = "<group>";
+		};
+		C577D3C91AA58A9E00B0C7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C577D3CA1AA58A9E00B0C7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C577D3AF1AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C577D3CF1AA58A9E00B0C7F9 /* Build configuration list for PBXNativeTarget "GPSWatchKit_SKMaps" */;
+			buildPhases = (
+				C577D3AC1AA58A9D00B0C7F9 /* Sources */,
+				C577D3AD1AA58A9D00B0C7F9 /* Frameworks */,
+				C577D3AE1AA58A9D00B0C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSWatchKit_SKMaps;
+			productName = GPSWatchKit_SKMaps;
+			productReference = C577D3B01AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C577D3C41AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C577D3D21AA58A9E00B0C7F9 /* Build configuration list for PBXNativeTarget "GPSWatchKit_SKMapsTests" */;
+			buildPhases = (
+				C577D3C11AA58A9E00B0C7F9 /* Sources */,
+				C577D3C21AA58A9E00B0C7F9 /* Frameworks */,
+				C577D3C31AA58A9E00B0C7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C577D3C71AA58A9E00B0C7F9 /* PBXTargetDependency */,
+			);
+			name = GPSWatchKit_SKMapsTests;
+			productName = GPSWatchKit_SKMapsTests;
+			productReference = C577D3C51AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C577D3A81AA58A9D00B0C7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Baltoro;
+				TargetAttributes = {
+					C577D3AF1AA58A9D00B0C7F9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C577D3C41AA58A9E00B0C7F9 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C577D3AF1AA58A9D00B0C7F9;
+					};
+				};
+			};
+			buildConfigurationList = C577D3AB1AA58A9D00B0C7F9 /* Build configuration list for PBXProject "GPSWatchKit_SKMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C577D3A71AA58A9D00B0C7F9;
+			productRefGroup = C577D3B11AA58A9D00B0C7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C577D3AF1AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps */,
+				C577D3C41AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C577D3AE1AA58A9D00B0C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C577D3BB1AA58A9D00B0C7F9 /* Main.storyboard in Resources */,
+				C577D3C01AA58A9E00B0C7F9 /* LaunchScreen.xib in Resources */,
+				C577D3BD1AA58A9D00B0C7F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C577D3C31AA58A9E00B0C7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C577D3AC1AA58A9D00B0C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C577D3B81AA58A9D00B0C7F9 /* ViewController.swift in Sources */,
+				C577D3B61AA58A9D00B0C7F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C577D3C11AA58A9E00B0C7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C577D3CC1AA58A9E00B0C7F9 /* GPSWatchKit_SKMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C577D3C71AA58A9E00B0C7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C577D3AF1AA58A9D00B0C7F9 /* GPSWatchKit_SKMaps */;
+			targetProxy = C577D3C61AA58A9E00B0C7F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C577D3B91AA58A9D00B0C7F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C577D3BA1AA58A9D00B0C7F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C577D3BE1AA58A9E00B0C7F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C577D3BF1AA58A9E00B0C7F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C577D3CD1AA58A9E00B0C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C577D3CE1AA58A9E00B0C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C577D3D01AA58A9E00B0C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSWatchKit_SKMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C577D3D11AA58A9E00B0C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSWatchKit_SKMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C577D3D31AA58A9E00B0C7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPSWatchKit_SKMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSWatchKit_SKMaps.app/GPSWatchKit_SKMaps";
+			};
+			name = Debug;
+		};
+		C577D3D41AA58A9E00B0C7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPSWatchKit_SKMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSWatchKit_SKMaps.app/GPSWatchKit_SKMaps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C577D3AB1AA58A9D00B0C7F9 /* Build configuration list for PBXProject "GPSWatchKit_SKMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C577D3CD1AA58A9E00B0C7F9 /* Debug */,
+				C577D3CE1AA58A9E00B0C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C577D3CF1AA58A9E00B0C7F9 /* Build configuration list for PBXNativeTarget "GPSWatchKit_SKMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C577D3D01AA58A9E00B0C7F9 /* Debug */,
+				C577D3D11AA58A9E00B0C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C577D3D21AA58A9E00B0C7F9 /* Build configuration list for PBXNativeTarget "GPSWatchKit_SKMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C577D3D31AA58A9E00B0C7F9 /* Debug */,
+				C577D3D41AA58A9E00B0C7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C577D3A81AA58A9D00B0C7F9 /* Project object */;
+}
